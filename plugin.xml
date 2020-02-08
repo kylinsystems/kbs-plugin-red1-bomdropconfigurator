@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="org.plugin.model.Process"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.plugin.model.Process">
+      </process>
+   </extension>
+   <extension
+         id="org.bom.drop"
+         point="org.adempiere.webui.Form">
+      <form
+            class="org.bom.drop.WBOMDropConfigurator">
+      </form>
+   </extension>
+</plugin>
